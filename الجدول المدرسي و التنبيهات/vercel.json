@@ -1,6 +1,9 @@
 {
-  "framework": null,
-  "installCommand": "echo 'Skipping installation...'",
-  "buildCommand": null,
-  "outputDirectory": null
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ]
 }
